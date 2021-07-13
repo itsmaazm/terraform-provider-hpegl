@@ -7,7 +7,7 @@ This is the main repo for the GreenLake terraform provider which provides terraf
 We're currently in the process of open sourcing all the code, meanwhile, this repository holds the following:
 
 1. HPEGL release binaries,
-1. HPEGL provider [documentaion](doc/)
+1. HPEGL provider [documentaion](docs/)
 1. A set of scripts to automate the provider installation.
 
 ## Prerequisite
@@ -99,7 +99,7 @@ ${HOME}/.local/share/terraform/plugins/registry.terraform.io/hewlettpackard/hpeg
    > on linux_amd64
    ```
    
-1. Create a Terraform file in your working directory. For more information please consult the [documentation](doc/):
+1. Create a Terraform file in your working directory. For more information please consult the [documentation](docs/):
    ```terraform
       terraform {
          required_providers {
