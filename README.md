@@ -7,10 +7,10 @@ This is the main repo for the GreenLake terraform provider which provides terraf
 We're currently in the process of open sourcing all the code, meanwhile, this repository holds the following:
 
 1. HPEGL release binaries,
-1. HPEGL provider [documentaion](docs/)
+1. HPEGL provider [documentation](docs/)
 1. A set of scripts to automate the provider installation.
 
-## Prerequisite
+## Prerequisites
 
 1. Terraform version >= v0.13 [install terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 1. A Service Client to authenticate against GreenLake.
@@ -66,7 +66,7 @@ VERSION=v0.0.5 bash <(curl -sL https://raw.githubusercontent.com/HewlettPackard/
 
 ### Other OS and Manual steps
 
-1. [Download](https://github.com/HewlettPackard/terraform-provider-hpegl/releases) the respective binary zip file to your operating system and architecture.
+1. [Download](https://github.com/HewlettPackard/terraform-provider-hpegl/releases) the appropriate provider build to your operating system and architecture.
 1. Extract the provider file to:
     - Linux
       ```shell
